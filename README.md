@@ -33,3 +33,17 @@ By reading the keywords, user could choose the content they want and add them to
 2. Start the paper prototype
 3. Figure out the technical issues
 4. First focus on the scientific book (such as plant/flowers)
+
+## Installation and Setup
+First you will have to clone the repository locally. Make sure you have `virtualenvwrapper` installed on your computer.
+If you don't you can install it with
+`pip install virtualenvwrapper`
+
+Make a virtual environment for the project
+`mkvirtualenv wiki`
+
+Install all of the dependencies for the project
+`pip install -r requirements.txt`
+
+Use this command to fire up the server and run the application
+`python app.py`
