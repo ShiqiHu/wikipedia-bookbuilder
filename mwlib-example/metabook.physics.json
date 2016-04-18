@@ -1,0 +1,57 @@
+{
+    "type": "collection",
+    "version": "1",
+    "title": "Physics",
+    "subtitle": "The Main Branches of Physics",
+    "editor": "WikiBookey",
+    "items": [
+        {
+            "type": "chapter",
+            "title": "Introduction",
+            "items": [
+                {
+                    "type": "article",
+                    "title": "Physics",
+                    "content_type": "text/x-wiki",
+                    "source-url": "https://en.wikipedia.org/wiki/Physics"
+                }
+            ]
+        },
+        {
+            "type": "chapter",
+            "title": "Main Branches of Physics",
+            "items": [
+                {
+                    "type": "article",
+                    "title": "Classical Mechanics",
+                    "content_type": "text/x-wiki",
+                    "source-url": "https://en.wikipedia.org/wiki/Classical_mechanics"
+                },
+                {
+                    "type": "article",
+                    "title": "Electromagnetism",
+                    "content_type": "text/x-wiki",
+                    "source-url": "https://en.wikipedia.org/wiki/Electromagnetism"
+                },
+                {
+                    "type": "article",
+                    "title": "Modern Physics",
+                    "content_type": "text/x-wiki",
+                    "source-url": "https://en.wikipedia.org/wiki/Modern_physics"
+                },
+                {
+                    "type": "article",
+                    "title": "Optics",
+                    "content_type": "text/x-wiki",
+                    "source-url": "https://en.wikipedia.org/wiki/Optics"
+                },
+                {
+                    "type": "article",
+                    "title": "Thermodynamics",
+                    "content_type": "text/x-wiki",
+                    "source-url": "https://en.wikipedia.org/wiki/Thermodynamics"
+                }
+            ]
+        }
+    ]
+}

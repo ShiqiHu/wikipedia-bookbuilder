@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+
+<div>
+  <h1>Wikipedia Book Builder</h1>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input id="input" type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" id="searchButton" type="button">Go!</button>
+      </span>
+    </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
+</div><!-- /.row -->
+
+<script>
+    $( "#searchButton" ).click(function() {
+       var value = $( "#input" ).val();
+      console.log(value);
+      $.get( "/search", { searchQuery: value } )
+        .done(function( data ) {
+          console.log(data);
+        });
+    });
+</script>
